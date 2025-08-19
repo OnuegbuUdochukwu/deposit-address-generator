@@ -37,7 +37,6 @@ public class AddressService {
         if (response != null && "success".equals(response.getStatus())) {
             return response.getData();
         }
-
         return null;
     }
 }
